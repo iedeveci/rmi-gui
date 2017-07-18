@@ -15,6 +15,9 @@ import javax.swing.JButton;
 @SuppressWarnings("unused")
 public class DemoServer implements IDemoButton {
 
+	/***
+	 * this is a javadoc
+	 */
 	public DemoServer() {
 	}
 
