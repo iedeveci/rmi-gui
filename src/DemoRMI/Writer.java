@@ -8,6 +8,12 @@ import java.io.IOException;
 public class Writer {
 	private static final String FILENAME = "E:/Users/Ýbrahim/Desktop/Staj/WorkSpace/RMI-GUI/WriterMessages.txt";
 
+	/***
+	 * javadoc from mustafa
+	 * 
+	 * @param FileEvent
+	 * @return
+	 */
 	public static Writer writeToFile(Event FileEvent) {
 		try {
 			
