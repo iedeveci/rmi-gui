@@ -6,7 +6,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class Writer {
-	private static final String FILENAME = "E:/Users/Ýbrahim/Desktop/Staj/WorkSpace/RMI-GUI/WriterMessages.txt";
+	private static final String FILENAME = "WriterMessages.txt";
 
 	/***
 	 * javadoc from mustafa
@@ -14,6 +14,7 @@ public class Writer {
 	 * @param FileEvent
 	 * @return
 	 */
+	
 	public static Writer writeToFile(Event FileEvent) {
 		try {
 			
