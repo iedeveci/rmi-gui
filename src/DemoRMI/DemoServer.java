@@ -4,10 +4,6 @@ import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.rmi.server.UnicastRemoteObject;
 
-import Methods.Event;
-import Methods.Response;
-import Methods.Writer;
-
 @SuppressWarnings("unused")
 public class DemoServer implements IDemoButton {
 
