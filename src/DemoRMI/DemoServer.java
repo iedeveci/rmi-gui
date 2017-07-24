@@ -33,10 +33,10 @@ public class DemoServer implements IDemoButton {
 		}
 	}
 
-	public String doaction(String ss) {
-
-		Event iEvent = Event.deserialize(ss);
-
+	public String doaction(String s) {
+		
+		Event iEvent = Event.deserialize(s);
+		
 		Response iResponse = this.handleEvent(iEvent);
 
 		return iResponse.serialize();
