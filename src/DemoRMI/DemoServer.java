@@ -1,16 +1,12 @@
 package DemoRMI;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.rmi.server.UnicastRemoteObject;
 
-import javax.swing.AbstractButton;
-import javax.swing.JButton;
+import Methods.Event;
+import Methods.Response;
+import Methods.Writer;
 
 @SuppressWarnings("unused")
 public class DemoServer implements IDemoButton {
@@ -37,7 +33,7 @@ public class DemoServer implements IDemoButton {
 
 		}
 		while (true) {
-			continue;
+
 		}
 	}
 
@@ -53,7 +49,7 @@ public class DemoServer implements IDemoButton {
 	private Response handleEvent(Event iEvent) {
 
 		Writer iWrite = Writer.writeToFile(iEvent);
-		
+
 		return new Response(iEvent.EventType, true);
 
 	}
