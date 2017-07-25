@@ -5,37 +5,45 @@
   
   <!-- set global properties for this build -->
   <property name="src" location="src"/>
-  <property name = "testdir" location = "src" />
+  <property name ="testdir" location = "src" />
   <property name="build" location="build"/>
   <property name="dist" location="dist"/>
   <property name="encoding" value="Cp1252"/>
 
   <import file="./build-task-2.xml"/> 
   
+	
+		
+	   <path id = "classpath.test">
+	      <pathelement location = "lib/junit-4.10.jar" />
+	      <pathelement location = "${testdir}" />
+	      <pathelement location = "${srcdir}" />
+	     
+	   </path>
+	
   <target name="init">
     <tstamp/>
     <mkdir dir="${build}"/>
   </target>
 
   <target name="compile" depends="init" description="compile the source">
-    <path id="itext.lib">
-		<pathelement location="./lib/itextpdf-5.5.9.jar"/>
-	</path>
+		<path id="itext.lib">
+			<pathelement location="./lib/itextpdf-5.5.9.jar"/>
+		</path>
 
-	<path id = "classpath.test">
-      <pathelement location = "lib/junit-4.10.jar" />
-    </path>
-   
- <path id="all.libs">
-  <path refid="itext.lib"/>
-  <path refid="classpath.test"/>
- </path>
+		
+		<path id="all.libs">
+			<path refid="itext.lib"/>
+			<path refid="classpath.test"/>
+		</path>
   
 
- <javac srcdir="${src}" destdir="${build}" classpathref="all.libs" encoding="${encoding}" nowarn="true" debug="on" />
+		<javac srcdir="${src}" destdir="${build}" classpathref="all.libs" encoding="${encoding}" includeantruntime="false" nowarn="true" debug="on" />
+  
+  
   </target>
 
-  <target name="dist" depends="compile" description="generate the distribution">
+  <target name="dist" depends="test" description="generate the distribution">
     <mkdir dir="${dist}"/>
     <jar jarfile="${dist}/${DSTAMP}/rmi-gui-server.jar" manifest="./manifest/MANIFEST_S.MF">
   <zipgroupfileset dir="./lib" includes="*.jar"/>
@@ -52,11 +60,13 @@
     <delete dir="${dist}"/>
   </target>
   
-   <target name = "test" depends = "compile">
-      <junit>
+   <target name = "test" depends ="compile" >
+   	<echo>Running the junit tests...</echo>
+      <junit printsummary="yes" showoutput="yes">
          <classpath refid = "classpath.test" />
+     
          <formatter type = "brief" usefile = "false" />
-         <test name = "EventTest" />
+         <test  name = "DemoUnit" />
       </junit>
    </target>
 </project>
