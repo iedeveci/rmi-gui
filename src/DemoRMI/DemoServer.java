@@ -7,11 +7,7 @@ import java.rmi.server.UnicastRemoteObject;
 @SuppressWarnings("unused")
 
 public class DemoServer implements IDemoButton {
-
-	/***
-	 * this is a javadoc
-	 */
-
+	
 	public DemoServer() {
 
 	}
@@ -41,30 +37,31 @@ public class DemoServer implements IDemoButton {
 		}
 	}
 
-	public String doaction(String s) {
+	public String doaction(String ss) {
 
-		if (s == "TYPE3") {
+		if (ss.contains("TYPE3:")) {
 
-			String s1 = null;
+			String s1 = DemoClient.input2;
 
-			String s2 = null;
+			String s2 = DemoClient.input1;
 
-			EventCal cEvent = EventCal.deserialize(s, s1, s2);
+			EventCal cEvent = EventCal.deserialize(ss, s1, s2);
 
-			Response cResponse = this.handleEvent(null, cEvent);
+			Response cResponse = DemoServer.handleEvent(null, cEvent);
+
+			return cResponse.serialize().toString();
 
 		} else {
 
-			Event iEvent = Event.deserialize(s);
+			Event iEvent = Event.deserialize(ss);
 
-			Response iResponse = this.handleEvent(iEvent, null);
+			Response iResponse = DemoServer.handleEvent(iEvent, null);
 
-			return iResponse.serialize();
+			return iResponse.serialize().toString();
 		}
-		return s;
 	}
 
-	private Response handleEvent(Event iEvent, EventCal cEvent) {
+	public static Response handleEvent(Event iEvent, EventCal cEvent) {
 
 		if (iEvent == null) {
 
@@ -82,7 +79,10 @@ public class DemoServer implements IDemoButton {
 
 			return new Response(iEvent.EventType, true);
 
+		} else {
+			
+			return null;
+			
 		}
-		return null;
 	}
 }

@@ -13,13 +13,17 @@ import javax.swing.JTextField;
 
 public class DemoClient {
 
+	static String input1;
+	static String input2;
+
+	static JFrame frame = new JFrame("RMI-GUI");
+
 	public static void main(String[] args) {
 
 		try {
+
 			Registry registry = LocateRegistry.getRegistry("127.0.0.1", 1099);
 			final IDemoButton stub = (IDemoButton) registry.lookup("Button");
-
-			JFrame frame = new JFrame("RMI-GUI");
 
 			JPanel GUI = new JPanel();
 			GUI.setLayout(null);
@@ -35,19 +39,6 @@ public class DemoClient {
 			bta.setSize(120, 20);
 			bta.setLocation(70, 20);
 			bta.setHorizontalAlignment(0);
-			bta.addActionListener(new ActionListener() {
-				public void actionPerformed(ActionEvent e) {
-					String response = null;
-					try {
-						Event iEvent = new Event(Event.TYPE1, " " + "A Button");
-						response = stub.doaction(iEvent.serialize());
-					} catch (RemoteException e1) {
-						e1.printStackTrace();
-					}
-					System.out.println("Response: " + response);
-
-				}
-			});
 			buttons.add(bta);
 
 			JButton btb = new JButton();
@@ -55,18 +46,6 @@ public class DemoClient {
 			btb.setSize(120, 20);
 			btb.setLocation(70, 50);
 			btb.setHorizontalAlignment(0);
-			btb.addActionListener(new ActionListener() {
-				public void actionPerformed(ActionEvent e) {
-					String response = null;
-					try {
-						Event iEvent = new Event(Event.TYPE2, " " + "B Button");
-						response = stub.doaction(iEvent.serialize());
-					} catch (RemoteException e1) {
-						e1.printStackTrace();
-					}
-					System.out.println("Response: " + response);
-				}
-			});
 			buttons.add(btb);
 
 			JTextField jt1 = new JTextField();
@@ -85,22 +64,51 @@ public class DemoClient {
 			btc.setSize(40, 30);
 			btc.setLocation(160, 90);
 			btc.setHorizontalAlignment(0);
-			btc.addActionListener(new ActionListener() {
+			buttons.add(btc);
+
+			bta.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
 					String response = null;
-					String input1 = jt1.getText();
-					String input2 = jt2.getText();
-					int result = multiplication(input1, input2);
 					try {
-						EventCal cEvent = new EventCal(EventCal.TYPE3, result);
-						response = stub.doaction(cEvent.cserialize());
+						Event iEvent = new Event(Event.TYPE1, " " + "A Button");
+						response = stub.doaction(iEvent.serialize());
 					} catch (RemoteException e1) {
 						e1.printStackTrace();
 					}
 					System.out.println("Response: " + response);
 				}
 			});
-			buttons.add(btc);
+
+			btb.addActionListener(new ActionListener() {
+				public void actionPerformed(ActionEvent e) {
+					String response = null;
+					try {
+						Event iEvent = new Event(Event.TYPE2, " " + "B Button");
+						response = stub.doaction(iEvent.serialize());
+					} catch (RemoteException e1) {
+						e1.printStackTrace();
+					}
+					System.out.println("Response: " + response);
+				}
+			});
+		
+
+			btc.addActionListener(new ActionListener() {
+				public void actionPerformed(ActionEvent e) {
+					String response = null;
+					input1 = jt1.getText();
+					input2 = jt2.getText();
+					int result = multiplication(input1, input2);
+					EventCal cEvent = new EventCal(EventCal.TYPE3, result);
+					try {
+						response = stub.doaction(cEvent.cserialize());
+					} catch (RemoteException e1) {
+						e1.printStackTrace();
+					}
+
+					System.out.println("Response: " + response);
+				}
+			});
 
 			frame.setSize(280, 200);
 			frame.setContentPane(GUI);
@@ -112,13 +120,13 @@ public class DemoClient {
 			e.printStackTrace();
 		}
 	}
-	
+
 	public static int multiplication(String str1, String str2) {
 
 		int t1 = Integer.parseInt(str1);
 
 		int t2 = Integer.parseInt(str2);
-		
+
 		return t1 * t2;
 	}
 
