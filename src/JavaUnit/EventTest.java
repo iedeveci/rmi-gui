@@ -1,4 +1,4 @@
-
+package JavaUnit;
 
 import static org.junit.Assert.*;
 

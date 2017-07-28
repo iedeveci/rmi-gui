@@ -6,6 +6,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class Writer {
+	
 	private static final String FILENAME = "WriterMessages.txt";
 
 	public static Writer writeToFile(String content) {
