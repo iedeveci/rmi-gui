@@ -55,9 +55,9 @@
 		<mkdir dir="${build}" />
 		<mkdir dir="${buildtest}" />
 		<mkdir dir="${report}" />
-		<mkdir dir="reports/html/" />
-		<mkdir dir="reports/html_noframe/" />
-		<mkdir dir="reports/xml" />
+		<mkdir dir="${report}/html/" />
+		<mkdir dir="${report}/html_noframe/" />
+		<mkdir dir="${report}/xml" />
 		<mkdir dir="${dist}" />
 	</target>
 
@@ -101,7 +101,8 @@
    
    
    alttakı usefıle true olmak zorunda yoksa 
-   html cıkartmıyor consela yazıyor sadece
+   html cıkartmıyor consela yazıyor sadece  html cıkartması ıcınde hepsının bır xml dosyaso olusması lazım report dosyasında
+			 test spnuclarını xmle olsututur
    -->
 
 			<formatter type="xml" usefile="true" />
@@ -115,7 +116,8 @@
 		<junitreport todir="${report}/xml">
 
 			<fileset dir="${report}/xml">
-				<include name="TEST-*.xml" />
+				<include name="TEST-*.xml" /> <!-- her bir test ıcın xml olusur bu xmle bakarak htmle cevırır bır takım test sonuclarını xml e yazıyor 
+				ve bu xmldeki seylerı html e cevırır. -->
 			</fileset>
 			<!-- <fileset dir="${report}">-->
 			<!-- <include name="**/*Test*.java" />-->
