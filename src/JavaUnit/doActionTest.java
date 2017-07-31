@@ -1,11 +1,10 @@
 package JavaUnit;
-
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 import org.junit.Test;
 
 import DemoRMI.DemoServer;
-
+import DemoRMI.Event;
 
 public class doActionTest {
 	public static final String TYPE1 ="1";

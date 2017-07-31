@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <project name="MyProject" default="main" basedir=".">
 
 	<description>Compile-Test-TestReport-Makejar-</description>
@@ -85,26 +85,24 @@
 
 
 			<batchtest fork="yes" todir="${report}/xml">
-				<fileset dir="${testdir}">
-
+				<fileset dir="${testdir}/">
 					<include name="**/*Test*.java" />
 					<!-- burda test suite clasıınıda bulup faıllerı ıkı kere gosterıyor burda sadece testsuıte sınıfını ıstemek daha 
-					mantıklı sanırım. -->
+     mantıklı sanırım. -->
 
 					<include name="**/*Unit*.java" />
 
 
-					<!--	<exclude name="**/*Stub*"/> -->
+					<!-- <exclude name="**/*Stub*"/> -->
 				</fileset>
 			</batchtest>
 			<!--   yada dırek ısım yazabıliriz...
-			<test name="DemoUnit" /> 
-			
-			
-			alttakı usefıle true olmak zorunda yoksa 
-			html cıkartmıyor consela yazıyor sadece html cıkartması ıcınde hepsının bır xml dosyaso olusması lazım report dosyasında
-			 test spnuclarını xmle olsututur
-			-->
+   <test name="DemoUnit" /> 
+   
+   
+   alttakı usefıle true olmak zorunda yoksa 
+   html cıkartmıyor consela yazıyor sadece
+   -->
 
 			<formatter type="xml" usefile="true" />
 
@@ -118,37 +116,33 @@
 
 			<fileset dir="${report}/xml">
 				<include name="TEST-*.xml" />
-				<!-- her bir test ıcın xml olusur bu xmle bakarak htmle cevırır bır takım test sonuclarını xml e yazıyor 
-				ve bu xmldeki seylerı html e cevırır. -->
 			</fileset>
-			<!--	<fileset dir="${report}">-->
-			<!--	<include name="**/*Test*.java" />-->
-			<!--	<include name="**/*Unit*.java" </fileset> /> 
-			-->
+			<!-- <fileset dir="${report}">-->
+			<!-- <include name="**/*Test*.java" />-->
+			<!-- <include name="**/*Unit*.java" </fileset> /> 
+   -->
 
-			<!--	noframe yazarsak tek html dosyası olusur frame yazarsak bırden fazla olusuyor.
-			burtun testler tek erkanda test sayısı cogaldıkca gorunum kotu olucak sanırım -->
-
-
+			<!-- noframe yazarsak tek html dosyası olusur frame yazarsak bırden fazla olusuyor.
+   burtun testler tek erkanda test sayısı cogaldıkca gorunum kotu olucak sanırım -->
 			<report format="frames" todir="./reports/html" />
 			<report format="noframes" todir="./reports/html_noframe" />
-			<!--	xsl ornegı -->
-			<!--	<report todir="${report}"
-			        styledir="report"
-			        format="frames">
-			        <param name="key1" expression="value1"/>
-			        <param name="key2" expression="value2"/>
-			    </report> 
+			<!-- xsl ornegı -->
+			<!-- <report todir="${report}"
+           styledir="report"
+           format="frames">
+           <param name="key1" expression="value1"/>
+           <param name="key2" expression="value2"/>
+       </report> 
 -->
 		</junitreport>
 
 
 		<!-- pdf report ıcın libe dosya attım ama olmadı
-		<junitpdfreport todir="${report}" styledir="${basedir}">
-			    <fileset dir="${report}"> 
-			        <include name="TEST-*.xml" />
-			    </fileset>
-			</junitpdfreport>  -->
+  <junitpdfreport todir="${report}" styledir="${basedir}">
+       <fileset dir="${report}"> 
+           <include name="TEST-*.xml" />
+       </fileset>
+   </junitpdfreport>  -->
 
 
 
