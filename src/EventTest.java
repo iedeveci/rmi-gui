@@ -9,7 +9,7 @@ import DemoRMI.DemoClient;
 public class EventTest {
 
 	@Test
-	public void test() {
+	public void multiplicationtest() {
 		int sonuc = DemoClient.multiplication("5", "8");
 		assertEquals(40, sonuc);
 	}

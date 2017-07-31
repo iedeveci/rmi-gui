@@ -9,7 +9,7 @@ import org.junit.Test;
 public class DemoUnit {
 
 	@Test
-	public void test() {
+	public void test_deneme() {
 		 //execute only once, in the starting 
 		  System.out.println("DemoUnit.test()");
 		
@@ -39,13 +39,13 @@ public class DemoUnit {
 		
 	   //test case 1
 	   @Test
-	   public void testCase1() {
+	   public void test_deneme2() {
 	      System.out.println("in test case 1");
 	   }
 
 	   //test case 2
 	   @Test
-	   public void testCase2() {
+	   public void test_deneme3() {
 	      System.out.println("in test case 2");
 	   }
 }

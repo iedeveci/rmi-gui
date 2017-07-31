@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="Salih" id="0" name="DemoUnit" package="" skipped="0" tests="3" time="0.058" timestamp="2017-07-28T08:48:21">
+  <testsuite errors="0" failures="0" hostname="Salih" id="0" name="DemoUnit" package="" skipped="0" tests="3" time="0.059" timestamp="2017-07-31T07:41:36">
       <properties>
           <property name="java.vendor" value="Oracle Corporation" />
 
@@ -14,7 +14,11 @@
 
           <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes" />
 
-          <property name="TODAY" value="July 28 2017" />
+          <property name="ant.file.imported" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\lib\junitpdfreport\build-junitpdfreport.xml" />
+
+          <property name="TODAY" value="July 31 2017" />
+
+          <property name="report" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\reports" />
 
           <property name="sun.desktop" value="windows" />
 
@@ -36,15 +40,13 @@
 
           <property name="ant.project.name" value="MyProject" />
 
-          <property name="DSTAMP" value="20170728" />
+          <property name="DSTAMP" value="20170731" />
 
           <property name="java.version" value="1.8.0_121" />
 
           <property name="user.timezone" value="" />
 
           <property name="ant.file.MyProject" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\build.xml" />
-
-          <property name="junitoutputdir" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\reports" />
 
           <property name="sun.arch.data.model" value="64" />
 
@@ -98,7 +100,7 @@
 
           <property name="java.specification.vendor" value="Oracle Corporation" />
 
-          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_141/bin/server;C:/Program Files/Java/jre1.8.0_141/bin;C:/Program Files/Java/jre1.8.0_141/lib/amd64;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files\Ant\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files (x86)\Skype\Phone\;C:\Junit\junit-4.10.jar;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\MySQL\MySQL Server 5.7\bin;C:\Users\Salihgoksever\eclipse\java-oxygen2\eclipse;;." />
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_141/bin/server;C:/Program Files/Java/jre1.8.0_141/bin;C:/Program Files/Java/jre1.8.0_141/lib/amd64;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files\Ant\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files (x86)\Skype\Phone\;C:\Junit\junit-4.10.jar;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\MySQL\MySQL Server 5.7\bin;C:\WINDOWS\System32;;." />
 
           <property name="java.vendor.url" value="http://java.oracle.com/" />
 
@@ -108,17 +110,19 @@
 
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner DemoUnit skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\reports\TEST-DemoUnit.xml crashfile=C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\junitvmwatcher1092193484780555379.properties propsfile=C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\junit6246570817644368606.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner DemoUnit skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\reports\TEST-DemoUnit.xml crashfile=C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\junitvmwatcher4805292431710980398.properties propsfile=C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\junit5212216198401502363.properties" />
 
           <property name="java.class.path" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\lib\junit-4.10.jar;C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\src;C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\build\test;C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-launcher.jar;C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar;C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit.jar;C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit4.jar" />
 
           <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
 
-          <property name="TSTAMP" value="1148" />
+          <property name="TSTAMP" value="1041" />
 
           <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
 
           <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="ant.file.type.imported" value="file" />
 
           <property name="sun.cpu.endian" value="little" />
 
@@ -148,183 +152,7 @@
 
           <property name="file.encoding" value="Cp1254" />
 
-          <property name="java.specification.version" value="1.8" />
-
-          <property name="ant.project.invoked-targets" value="main" />
-
-          <property name="encoding" value="Cp1252" />
-
-      </properties>
-
-      <testcase classname="DemoUnit" name="test" time="0.001" />
-
-      <testcase classname="DemoUnit" name="testCase1" time="0.001" />
-
-      <testcase classname="DemoUnit" name="testCase2" time="0.0" />
-
-      <system-out><![CDATA[in before class
-in before
-DemoUnit.test()
-in after
-in before
-in test case 1
-in after
-in before
-in test case 2
-in after
-in after class
-]]></system-out>
-
-      <system-err><![CDATA[]]></system-err>
-
-  </testsuite>
-  <testsuite errors="0" failures="0" hostname="Salih" id="1" name="EventTest" package="" skipped="0" tests="1" time="0.681" timestamp="2017-07-28T08:48:22">
-      <properties>
-          <property name="java.vendor" value="Oracle Corporation" />
-
-          <property name="sun.java.launcher" value="SUN_STANDARD" />
-
-          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
-
-          <property name="dist" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\dist" />
-
-          <property name="os.name" value="Windows 8" />
-
-          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes" />
-
-          <property name="TODAY" value="July 28 2017" />
-
-          <property name="sun.desktop" value="windows" />
-
-          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
-
-          <property name="ant.home" value="C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840" />
-
-          <property name="java.runtime.version" value="1.8.0_121-b13" />
-
-          <property name="user.name" value="Salihgoksever" />
-
-          <property name="user.language" value="tr" />
-
-          <property name="build" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\build" />
-
-          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin" />
-
-          <property name="ant.project.default-target" value="main" />
-
-          <property name="ant.project.name" value="MyProject" />
-
-          <property name="DSTAMP" value="20170728" />
-
-          <property name="java.version" value="1.8.0_121" />
-
-          <property name="user.timezone" value="" />
-
-          <property name="ant.file.MyProject" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\build.xml" />
-
-          <property name="junitoutputdir" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\reports" />
-
-          <property name="sun.arch.data.model" value="64" />
-
-          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed" />
-
-          <property name="sun.cpu.isalist" value="amd64" />
-
-          <property name="sun.jnu.encoding" value="Cp1254" />
-
-          <property name="file.encoding.pkg" value="sun.io" />
-
-          <property name="file.separator" value="\" />
-
-          <property name="java.specification.name" value="Java Platform API Specification" />
-
-          <property name="java.class.version" value="52.0" />
-
-          <property name="src" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\src" />
-
-          <property name="buildtest" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\build\test" />
-
-          <property name="user.country" value="TR" />
-
-          <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre" />
-
-          <property name="java.vm.info" value="mixed mode" />
-
-          <property name="ant.file" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\build.xml" />
-
-          <property name="os.version" value="6.2" />
-
-          <property name="path.separator" value=";" />
-
-          <property name="java.vm.version" value="25.121-b13" />
-
-          <property name="user.variant" value="" />
-
-          <property name="ant.library.dir" value="C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib" />
-
-          <property name="ant.file.type.MyProject" value="file" />
-
-          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
-
-          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
-
-          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
-
-          <property name="user.script" value="" />
-
-          <property name="user.home" value="C:\Users\Salihgoksever" />
-
-          <property name="java.specification.vendor" value="Oracle Corporation" />
-
-          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_141/bin/server;C:/Program Files/Java/jre1.8.0_141/bin;C:/Program Files/Java/jre1.8.0_141/lib/amd64;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files\Ant\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files (x86)\Skype\Phone\;C:\Junit\junit-4.10.jar;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\MySQL\MySQL Server 5.7\bin;C:\Users\Salihgoksever\eclipse\java-oxygen2\eclipse;;." />
-
-          <property name="java.vendor.url" value="http://java.oracle.com/" />
-
-          <property name="testdir" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\src" />
-
-          <property name="java.vm.vendor" value="Oracle Corporation" />
-
-          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
-
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner EventTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\reports\TEST-EventTest.xml crashfile=C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\junitvmwatcher8050294234740500325.properties propsfile=C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\junit7161030849478452726.properties" />
-
-          <property name="java.class.path" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\lib\junit-4.10.jar;C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\src;C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\build\test;C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-launcher.jar;C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar;C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit.jar;C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit4.jar" />
-
-          <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
-
-          <property name="TSTAMP" value="1148" />
-
-          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
-
-          <property name="java.vm.specification.version" value="1.8" />
-
-          <property name="sun.cpu.endian" value="little" />
-
-          <property name="sun.os.patch.level" value="" />
-
-          <property name="java.io.tmpdir" value="C:\Users\Salihgoksever\AppData\Local\Temp\" />
-
-          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
-
-          <property name="os.arch" value="amd64" />
-
-          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
-
-          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
-
-          <property name="user.dir" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui" />
-
-          <property name="line.separator" value="&#xd;&#xa;" />
-
-          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
-
-          <property name="basedir" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui" />
-
-          <property name="ant.java.version" value="1.8" />
-
-          <property name="ant.core.lib" value="C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar" />
-
-          <property name="file.encoding" value="Cp1254" />
+          <property name="imported.basedir" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\lib\junitpdfreport" />
 
           <property name="java.specification.version" value="1.8" />
 
@@ -334,174 +162,11 @@ in after class
 
       </properties>
 
-      <testcase classname="EventTest" name="test" time="0.626" />
+      <testcase classname="DemoUnit" name="test_deneme" time="0.001" />
 
-      <system-out><![CDATA[]]></system-out>
+      <testcase classname="DemoUnit" name="test_deneme3" time="0.001" />
 
-      <system-err><![CDATA[]]></system-err>
-
-  </testsuite>
-  <testsuite errors="0" failures="0" hostname="Salih" id="2" name="DemoUnit" package="JavaUnit" skipped="0" tests="3" time="0.055" timestamp="2017-07-28T08:48:23">
-      <properties>
-          <property name="java.vendor" value="Oracle Corporation" />
-
-          <property name="sun.java.launcher" value="SUN_STANDARD" />
-
-          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
-
-          <property name="dist" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\dist" />
-
-          <property name="os.name" value="Windows 8" />
-
-          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes" />
-
-          <property name="TODAY" value="July 28 2017" />
-
-          <property name="sun.desktop" value="windows" />
-
-          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
-
-          <property name="ant.home" value="C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840" />
-
-          <property name="java.runtime.version" value="1.8.0_121-b13" />
-
-          <property name="user.name" value="Salihgoksever" />
-
-          <property name="user.language" value="tr" />
-
-          <property name="build" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\build" />
-
-          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin" />
-
-          <property name="ant.project.default-target" value="main" />
-
-          <property name="ant.project.name" value="MyProject" />
-
-          <property name="DSTAMP" value="20170728" />
-
-          <property name="java.version" value="1.8.0_121" />
-
-          <property name="user.timezone" value="" />
-
-          <property name="ant.file.MyProject" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\build.xml" />
-
-          <property name="junitoutputdir" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\reports" />
-
-          <property name="sun.arch.data.model" value="64" />
-
-          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed" />
-
-          <property name="sun.cpu.isalist" value="amd64" />
-
-          <property name="sun.jnu.encoding" value="Cp1254" />
-
-          <property name="file.encoding.pkg" value="sun.io" />
-
-          <property name="file.separator" value="\" />
-
-          <property name="java.specification.name" value="Java Platform API Specification" />
-
-          <property name="java.class.version" value="52.0" />
-
-          <property name="src" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\src" />
-
-          <property name="buildtest" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\build\test" />
-
-          <property name="user.country" value="TR" />
-
-          <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre" />
-
-          <property name="java.vm.info" value="mixed mode" />
-
-          <property name="ant.file" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\build.xml" />
-
-          <property name="os.version" value="6.2" />
-
-          <property name="path.separator" value=";" />
-
-          <property name="java.vm.version" value="25.121-b13" />
-
-          <property name="user.variant" value="" />
-
-          <property name="ant.library.dir" value="C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib" />
-
-          <property name="ant.file.type.MyProject" value="file" />
-
-          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
-
-          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
-
-          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
-
-          <property name="user.script" value="" />
-
-          <property name="user.home" value="C:\Users\Salihgoksever" />
-
-          <property name="java.specification.vendor" value="Oracle Corporation" />
-
-          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_141/bin/server;C:/Program Files/Java/jre1.8.0_141/bin;C:/Program Files/Java/jre1.8.0_141/lib/amd64;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files\Ant\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files (x86)\Skype\Phone\;C:\Junit\junit-4.10.jar;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\MySQL\MySQL Server 5.7\bin;C:\Users\Salihgoksever\eclipse\java-oxygen2\eclipse;;." />
-
-          <property name="java.vendor.url" value="http://java.oracle.com/" />
-
-          <property name="testdir" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\src" />
-
-          <property name="java.vm.vendor" value="Oracle Corporation" />
-
-          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
-
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner JavaUnit.DemoUnit skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\reports\TEST-JavaUnit.DemoUnit.xml crashfile=C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\junitvmwatcher3898901656476448630.properties propsfile=C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\junit6639314714674274585.properties" />
-
-          <property name="java.class.path" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\lib\junit-4.10.jar;C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\src;C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\build\test;C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-launcher.jar;C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar;C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit.jar;C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit4.jar" />
-
-          <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
-
-          <property name="TSTAMP" value="1148" />
-
-          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
-
-          <property name="java.vm.specification.version" value="1.8" />
-
-          <property name="sun.cpu.endian" value="little" />
-
-          <property name="sun.os.patch.level" value="" />
-
-          <property name="java.io.tmpdir" value="C:\Users\Salihgoksever\AppData\Local\Temp\" />
-
-          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
-
-          <property name="os.arch" value="amd64" />
-
-          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
-
-          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
-
-          <property name="user.dir" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui" />
-
-          <property name="line.separator" value="&#xd;&#xa;" />
-
-          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
-
-          <property name="basedir" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui" />
-
-          <property name="ant.java.version" value="1.8" />
-
-          <property name="ant.core.lib" value="C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar" />
-
-          <property name="file.encoding" value="Cp1254" />
-
-          <property name="java.specification.version" value="1.8" />
-
-          <property name="ant.project.invoked-targets" value="main" />
-
-          <property name="encoding" value="Cp1252" />
-
-      </properties>
-
-      <testcase classname="JavaUnit.DemoUnit" name="test" time="0.002" />
-
-      <testcase classname="JavaUnit.DemoUnit" name="testCase2" time="0.001" />
-
-      <testcase classname="JavaUnit.DemoUnit" name="testCase1" time="0.0" />
+      <testcase classname="DemoUnit" name="test_deneme2" time="0.0" />
 
       <system-out><![CDATA[in before class
 in before
@@ -519,7 +184,7 @@ in after class
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="Salih" id="3" name="EventTest" package="JavaUnit" skipped="0" tests="1" time="1.439" timestamp="2017-07-28T08:48:24">
+  <testsuite errors="0" failures="0" hostname="Salih" id="1" name="EventTest" package="" skipped="0" tests="1" time="0.192" timestamp="2017-07-31T07:41:37">
       <properties>
           <property name="java.vendor" value="Oracle Corporation" />
 
@@ -533,7 +198,11 @@ in after class
 
           <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes" />
 
-          <property name="TODAY" value="July 28 2017" />
+          <property name="ant.file.imported" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\lib\junitpdfreport\build-junitpdfreport.xml" />
+
+          <property name="TODAY" value="July 31 2017" />
+
+          <property name="report" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\reports" />
 
           <property name="sun.desktop" value="windows" />
 
@@ -555,15 +224,13 @@ in after class
 
           <property name="ant.project.name" value="MyProject" />
 
-          <property name="DSTAMP" value="20170728" />
+          <property name="DSTAMP" value="20170731" />
 
           <property name="java.version" value="1.8.0_121" />
 
           <property name="user.timezone" value="" />
 
           <property name="ant.file.MyProject" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\build.xml" />
-
-          <property name="junitoutputdir" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\reports" />
 
           <property name="sun.arch.data.model" value="64" />
 
@@ -617,7 +284,7 @@ in after class
 
           <property name="java.specification.vendor" value="Oracle Corporation" />
 
-          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_141/bin/server;C:/Program Files/Java/jre1.8.0_141/bin;C:/Program Files/Java/jre1.8.0_141/lib/amd64;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files\Ant\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files (x86)\Skype\Phone\;C:\Junit\junit-4.10.jar;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\MySQL\MySQL Server 5.7\bin;C:\Users\Salihgoksever\eclipse\java-oxygen2\eclipse;;." />
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_141/bin/server;C:/Program Files/Java/jre1.8.0_141/bin;C:/Program Files/Java/jre1.8.0_141/lib/amd64;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files\Ant\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files (x86)\Skype\Phone\;C:\Junit\junit-4.10.jar;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\MySQL\MySQL Server 5.7\bin;C:\WINDOWS\System32;;." />
 
           <property name="java.vendor.url" value="http://java.oracle.com/" />
 
@@ -627,17 +294,19 @@ in after class
 
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner JavaUnit.EventTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\reports\TEST-JavaUnit.EventTest.xml crashfile=C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\junitvmwatcher7472762990068541088.properties propsfile=C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\junit4622390914446244263.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner EventTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\reports\TEST-EventTest.xml crashfile=C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\junitvmwatcher1243805099971952966.properties propsfile=C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\junit6651481243111289358.properties" />
 
           <property name="java.class.path" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\lib\junit-4.10.jar;C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\src;C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\build\test;C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-launcher.jar;C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar;C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit.jar;C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit4.jar" />
 
           <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
 
-          <property name="TSTAMP" value="1148" />
+          <property name="TSTAMP" value="1041" />
 
           <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
 
           <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="ant.file.type.imported" value="file" />
 
           <property name="sun.cpu.endian" value="little" />
 
@@ -667,6 +336,8 @@ in after class
 
           <property name="file.encoding" value="Cp1254" />
 
+          <property name="imported.basedir" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\lib\junitpdfreport" />
+
           <property name="java.specification.version" value="1.8" />
 
           <property name="ant.project.invoked-targets" value="main" />
@@ -675,14 +346,14 @@ in after class
 
       </properties>
 
-      <testcase classname="JavaUnit.EventTest" name="test" time="0.609" />
+      <testcase classname="EventTest" name="multiplicationtest" time="0.136" />
 
       <system-out><![CDATA[]]></system-out>
 
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="Salih" id="4" name="doActionTest" package="" skipped="0" tests="1" time="0.082" timestamp="2017-07-28T08:48:26">
+  <testsuite errors="0" failures="0" hostname="Salih" id="2" name="DemoUnit" package="JavaUnit" skipped="0" tests="3" time="0.072" timestamp="2017-07-31T07:41:38">
       <properties>
           <property name="java.vendor" value="Oracle Corporation" />
 
@@ -696,7 +367,11 @@ in after class
 
           <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes" />
 
-          <property name="TODAY" value="July 28 2017" />
+          <property name="ant.file.imported" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\lib\junitpdfreport\build-junitpdfreport.xml" />
+
+          <property name="TODAY" value="July 31 2017" />
+
+          <property name="report" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\reports" />
 
           <property name="sun.desktop" value="windows" />
 
@@ -718,15 +393,13 @@ in after class
 
           <property name="ant.project.name" value="MyProject" />
 
-          <property name="DSTAMP" value="20170728" />
+          <property name="DSTAMP" value="20170731" />
 
           <property name="java.version" value="1.8.0_121" />
 
           <property name="user.timezone" value="" />
 
           <property name="ant.file.MyProject" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\build.xml" />
-
-          <property name="junitoutputdir" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\reports" />
 
           <property name="sun.arch.data.model" value="64" />
 
@@ -780,7 +453,7 @@ in after class
 
           <property name="java.specification.vendor" value="Oracle Corporation" />
 
-          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_141/bin/server;C:/Program Files/Java/jre1.8.0_141/bin;C:/Program Files/Java/jre1.8.0_141/lib/amd64;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files\Ant\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files (x86)\Skype\Phone\;C:\Junit\junit-4.10.jar;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\MySQL\MySQL Server 5.7\bin;C:\Users\Salihgoksever\eclipse\java-oxygen2\eclipse;;." />
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_141/bin/server;C:/Program Files/Java/jre1.8.0_141/bin;C:/Program Files/Java/jre1.8.0_141/lib/amd64;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files\Ant\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files (x86)\Skype\Phone\;C:\Junit\junit-4.10.jar;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\MySQL\MySQL Server 5.7\bin;C:\WINDOWS\System32;;." />
 
           <property name="java.vendor.url" value="http://java.oracle.com/" />
 
@@ -790,17 +463,19 @@ in after class
 
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner doActionTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\reports\TEST-doActionTest.xml crashfile=C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\junitvmwatcher658490749521558568.properties propsfile=C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\junit3555272530326655619.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner JavaUnit.DemoUnit skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\reports\TEST-JavaUnit.DemoUnit.xml crashfile=C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\junitvmwatcher6324358241984453116.properties propsfile=C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\junit2963414702797646145.properties" />
 
           <property name="java.class.path" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\lib\junit-4.10.jar;C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\src;C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\build\test;C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-launcher.jar;C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar;C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit.jar;C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit4.jar" />
 
           <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
 
-          <property name="TSTAMP" value="1148" />
+          <property name="TSTAMP" value="1041" />
 
           <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
 
           <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="ant.file.type.imported" value="file" />
 
           <property name="sun.cpu.endian" value="little" />
 
@@ -830,6 +505,8 @@ in after class
 
           <property name="file.encoding" value="Cp1254" />
 
+          <property name="imported.basedir" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\lib\junitpdfreport" />
+
           <property name="java.specification.version" value="1.8" />
 
           <property name="ant.project.invoked-targets" value="main" />
@@ -838,7 +515,365 @@ in after class
 
       </properties>
 
-      <testcase classname="doActionTest" name="test" time="0.032" />
+      <testcase classname="JavaUnit.DemoUnit" name="test" time="0.001" />
+
+      <testcase classname="JavaUnit.DemoUnit" name="testCase2" time="0.0" />
+
+      <testcase classname="JavaUnit.DemoUnit" name="testCase1" time="0.001" />
+
+      <system-out><![CDATA[in before class
+in before
+DemoUnit.test()
+in after
+in before
+in test case 2
+in after
+in before
+in test case 1
+in after
+in after class
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="Salih" id="3" name="EventTest" package="JavaUnit" skipped="0" tests="1" time="0.186" timestamp="2017-07-31T07:41:38">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="dist" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\dist" />
+
+          <property name="os.name" value="Windows 8" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes" />
+
+          <property name="ant.file.imported" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\lib\junitpdfreport\build-junitpdfreport.xml" />
+
+          <property name="TODAY" value="July 31 2017" />
+
+          <property name="report" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\reports" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840" />
+
+          <property name="java.runtime.version" value="1.8.0_121-b13" />
+
+          <property name="user.name" value="Salihgoksever" />
+
+          <property name="user.language" value="tr" />
+
+          <property name="build" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\build" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin" />
+
+          <property name="ant.project.default-target" value="main" />
+
+          <property name="ant.project.name" value="MyProject" />
+
+          <property name="DSTAMP" value="20170731" />
+
+          <property name="java.version" value="1.8.0_121" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="ant.file.MyProject" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\build.xml" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1254" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="src" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\src" />
+
+          <property name="buildtest" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\build\test" />
+
+          <property name="user.country" value="TR" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\build.xml" />
+
+          <property name="os.version" value="6.2" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.121-b13" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib" />
+
+          <property name="ant.file.type.MyProject" value="file" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\Salihgoksever" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_141/bin/server;C:/Program Files/Java/jre1.8.0_141/bin;C:/Program Files/Java/jre1.8.0_141/lib/amd64;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files\Ant\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files (x86)\Skype\Phone\;C:\Junit\junit-4.10.jar;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\MySQL\MySQL Server 5.7\bin;C:\WINDOWS\System32;;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="testdir" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\src" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner JavaUnit.EventTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\reports\TEST-JavaUnit.EventTest.xml crashfile=C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\junitvmwatcher1905924427704980016.properties propsfile=C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\junit150135808865889319.properties" />
+
+          <property name="java.class.path" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\lib\junit-4.10.jar;C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\src;C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\build\test;C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-launcher.jar;C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar;C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit.jar;C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
+
+          <property name="TSTAMP" value="1041" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="ant.file.type.imported" value="file" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="java.io.tmpdir" value="C:\Users\Salihgoksever\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="basedir" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1254" />
+
+          <property name="imported.basedir" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\lib\junitpdfreport" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="ant.project.invoked-targets" value="main" />
+
+          <property name="encoding" value="Cp1252" />
+
+      </properties>
+
+      <testcase classname="JavaUnit.EventTest" name="test" time="0.132">
+          <failure message="expected:&lt;401&gt; but was:&lt;40&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;401&gt; but was:&lt;40&gt;
+	at JavaUnit.EventTest.test(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Salih" id="4" name="doActionTest" package="" skipped="0" tests="1" time="0.063" timestamp="2017-07-31T07:41:39">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="dist" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\dist" />
+
+          <property name="os.name" value="Windows 8" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes" />
+
+          <property name="ant.file.imported" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\lib\junitpdfreport\build-junitpdfreport.xml" />
+
+          <property name="TODAY" value="July 31 2017" />
+
+          <property name="report" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\reports" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840" />
+
+          <property name="java.runtime.version" value="1.8.0_121-b13" />
+
+          <property name="user.name" value="Salihgoksever" />
+
+          <property name="user.language" value="tr" />
+
+          <property name="build" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\build" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin" />
+
+          <property name="ant.project.default-target" value="main" />
+
+          <property name="ant.project.name" value="MyProject" />
+
+          <property name="DSTAMP" value="20170731" />
+
+          <property name="java.version" value="1.8.0_121" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="ant.file.MyProject" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\build.xml" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1254" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="src" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\src" />
+
+          <property name="buildtest" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\build\test" />
+
+          <property name="user.country" value="TR" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\build.xml" />
+
+          <property name="os.version" value="6.2" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.121-b13" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib" />
+
+          <property name="ant.file.type.MyProject" value="file" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\Salihgoksever" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_141/bin/server;C:/Program Files/Java/jre1.8.0_141/bin;C:/Program Files/Java/jre1.8.0_141/lib/amd64;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files\Ant\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files (x86)\Skype\Phone\;C:\Junit\junit-4.10.jar;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\MySQL\MySQL Server 5.7\bin;C:\WINDOWS\System32;;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="testdir" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\src" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner doActionTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\reports\TEST-doActionTest.xml crashfile=C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\junitvmwatcher8198122847910172930.properties propsfile=C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\junit36694151281629948.properties" />
+
+          <property name="java.class.path" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\lib\junit-4.10.jar;C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\src;C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\build\test;C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-launcher.jar;C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar;C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit.jar;C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
+
+          <property name="TSTAMP" value="1041" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="ant.file.type.imported" value="file" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="java.io.tmpdir" value="C:\Users\Salihgoksever\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="basedir" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1254" />
+
+          <property name="imported.basedir" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\lib\junitpdfreport" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="ant.project.invoked-targets" value="main" />
+
+          <property name="encoding" value="Cp1252" />
+
+      </properties>
+
+      <testcase classname="doActionTest" name="test" time="0.007" />
 
       <system-out><![CDATA[]]></system-out>
 
