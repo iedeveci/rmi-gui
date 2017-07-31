@@ -6,16 +6,15 @@
 
 	<property name="src" location="src" />
 	<property name="testdir" location="src" />
-	<property name="build" location="build" />
-	<property name="buildtest" location="build/test" />
+	<property name="build" location="bin/Compile" />
+	<property name="buildtest" location="bin/Test" />
 	<property name="dist" location="dist" />
 	<property name="report" location="reports" />
 	<property name="encoding" value="Cp1252" />
 
-	
 
 
-	<import file="lib/junitpdfreport/build-junitpdfreport.xml" />
+
 
 	<path id="classpath.test">
 
@@ -57,7 +56,8 @@
 		<mkdir dir="${buildtest}" />
 		<mkdir dir="${report}" />
 		<mkdir dir="reports/html/" />
-		<mkdir dir="reports/htmlnoframe/" />
+		<mkdir dir="reports/html_noframe/" />
+		<mkdir dir="reports/xml" />
 		<mkdir dir="${dist}" />
 	</target>
 
@@ -76,7 +76,7 @@
 	<target name="test" depends="compile">
 		<echo>Running the junit tests...</echo>
 
-		<junit printsummary="yes" showoutput="yes" >
+		<junit printsummary="yes" showoutput="yes">
 			<classpath refid="classpath.test" />
 			<classpath>
 				<pathelement location="${buildtest}" />
@@ -84,15 +84,16 @@
 			</classpath>
 
 
-			<batchtest fork="yes" todir="${report}">
+			<batchtest fork="yes" todir="${report}/xml">
 				<fileset dir="${testdir}">
+
 					<include name="**/*Test*.java" />
 					<!-- burda test suite clasıınıda bulup faıllerı ıkı kere gosterıyor burda sadece testsuıte sınıfını ıstemek daha 
 					mantıklı sanırım. -->
-					
+
 					<include name="**/*Unit*.java" />
-					
-					
+
+
 					<!--	<exclude name="**/*Stub*"/> -->
 				</fileset>
 			</batchtest>
@@ -101,7 +102,8 @@
 			
 			
 			alttakı usefıle true olmak zorunda yoksa 
-			html cıkartmıyor consela yazıyor sadece
+			html cıkartmıyor consela yazıyor sadece html cıkartması ıcınde hepsının bır xml dosyaso olusması lazım report dosyasında
+			 test spnuclarını xmle olsututur
 			-->
 
 			<formatter type="xml" usefile="true" />
@@ -112,10 +114,12 @@
 	<target name="test-reports" depends="test">
 
 
-		<junitreport todir="${report}">
+		<junitreport todir="${report}/xml">
 
-			<fileset dir="${report}">
+			<fileset dir="${report}/xml">
 				<include name="TEST-*.xml" />
+				<!-- her bir test ıcın xml olusur bu xmle bakarak htmle cevırır bır takım test sonuclarını xml e yazıyor 
+				ve bu xmldeki seylerı html e cevırır. -->
 			</fileset>
 			<!--	<fileset dir="${report}">-->
 			<!--	<include name="**/*Test*.java" />-->
@@ -124,31 +128,33 @@
 
 			<!--	noframe yazarsak tek html dosyası olusur frame yazarsak bırden fazla olusuyor.
 			burtun testler tek erkanda test sayısı cogaldıkca gorunum kotu olucak sanırım -->
+
+
 			<report format="frames" todir="./reports/html" />
-			<report format="noframes" todir="./reports/htmlnoframe" />
+			<report format="noframes" todir="./reports/html_noframe" />
 			<!--	xsl ornegı -->
-		<!--	<report todir="${report}"
+			<!--	<report todir="${report}"
 			        styledir="report"
 			        format="frames">
 			        <param name="key1" expression="value1"/>
 			        <param name="key2" expression="value2"/>
 			    </report> 
 -->
-		</junitreport> 
-	
-		
+		</junitreport>
+
+
 		<!-- pdf report ıcın libe dosya attım ama olmadı
 		<junitpdfreport todir="${report}" styledir="${basedir}">
 			    <fileset dir="${report}"> 
 			        <include name="TEST-*.xml" />
 			    </fileset>
 			</junitpdfreport>  -->
-		
-	 
-		
+
+
+
 	</target>
-	
-	
+
+
 
 	<target name="dist" depends="test-reports" description="generate the distribution">
 
@@ -161,8 +167,8 @@
 			<fileset dir="${build}" includes="**" />
 		</jar>
 	</target>
-	
-	
+
+
 
 
 	<target name="main" depends="dist">
