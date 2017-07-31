@@ -1,4 +1,4 @@
-
+package JavaUnit;
 
 import static org.junit.Assert.*;
 
@@ -9,9 +9,9 @@ import DemoRMI.DemoClient;
 public class EventTest {
 
 	@Test
-	public void multiplicationtest() {
+	public void test() {
 		int sonuc = DemoClient.multiplication("5", "8");
-		assertEquals(410, sonuc);
+		assertEquals(40, sonuc);
 	}
 
 }
