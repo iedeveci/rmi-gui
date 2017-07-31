@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Salih" name="DemoUnit" skipped="0" tests="3" time="0.059" timestamp="2017-07-31T07:41:36">
+<testsuite errors="0" failures="0" hostname="Salih" name="DemoUnit" skipped="0" tests="3" time="0.055" timestamp="2017-07-31T08:40:46">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
@@ -55,10 +55,10 @@
     <property name="testdir" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\src" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner DemoUnit skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\reports\TEST-DemoUnit.xml crashfile=C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\junitvmwatcher4805292431710980398.properties propsfile=C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\junit5212216198401502363.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner DemoUnit skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\reports\TEST-DemoUnit.xml crashfile=C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\junitvmwatcher5722223284993536289.properties propsfile=C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\junit9065512463481948539.properties" />
     <property name="java.class.path" value="C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\lib\junit-4.10.jar;C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\src;C:\Users\Salihgoksever\eclipse-workspace\rmi-gui\build\test;C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-launcher.jar;C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar;C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit.jar;C:\Users\Salihgoksever\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit4.jar" />
     <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
-    <property name="TSTAMP" value="1041" />
+    <property name="TSTAMP" value="1140" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
     <property name="java.vm.specification.version" value="1.8" />
     <property name="ant.file.type.imported" value="file" />
@@ -81,18 +81,18 @@
     <property name="ant.project.invoked-targets" value="main" />
     <property name="encoding" value="Cp1252" />
   </properties>
-  <testcase classname="DemoUnit" name="test_deneme" time="0.001" />
-  <testcase classname="DemoUnit" name="test_deneme3" time="0.001" />
-  <testcase classname="DemoUnit" name="test_deneme2" time="0.0" />
+  <testcase classname="DemoUnit" name="test_deneme2" time="0.002" />
+  <testcase classname="DemoUnit" name="test_deneme3" time="0.0" />
+  <testcase classname="DemoUnit" name="test_deneme" time="0.0" />
   <system-out><![CDATA[in before class
 in before
-DemoUnit.test()
+in test case 1
 in after
 in before
 in test case 2
 in after
 in before
-in test case 1
+DemoUnit.test()
 in after
 in after class
 ]]></system-out>

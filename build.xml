@@ -87,7 +87,12 @@
 			<batchtest fork="yes" todir="${report}">
 				<fileset dir="${testdir}">
 					<include name="**/*Test*.java" />
+					<!-- burda test suite clasıınıda bulup faıllerı ıkı kere gosterıyor burda sadece testsuıte sınıfını ıstemek daha 
+					mantıklı sanırım. -->
+					
 					<include name="**/*Unit*.java" />
+					
+					
 					<!--	<exclude name="**/*Stub*"/> -->
 				</fileset>
 			</batchtest>
