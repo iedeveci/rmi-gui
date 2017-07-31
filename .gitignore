@@ -4,3 +4,5 @@ bin/
 .project
 .log/
 build/
+reports/
+dist/
