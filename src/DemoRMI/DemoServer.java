@@ -50,6 +50,8 @@ public class DemoServer implements IDemoButton {
 			Response cResponse = DemoServer.handleEvent(null, cEvent);
 
 			return cResponse.serialize().toString();
+			
+
 
 		} else {
 

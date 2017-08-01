@@ -15,15 +15,15 @@ public class DemoClient {
 
 	static String input1;
 	static String input2;
-
 	static JFrame frame = new JFrame("RMI-GUI");
-
+	 
 	public static void main(String[] args) {
 
 		try {
 
 			Registry registry = LocateRegistry.getRegistry("127.0.0.1", 1099);
 			final IDemoButton stub = (IDemoButton) registry.lookup("Button");
+			String id = LoginEvent.deserialize().serialize();
 
 			JPanel GUI = new JPanel();
 			GUI.setLayout(null);
@@ -71,11 +71,11 @@ public class DemoClient {
 					String response = null;
 					try {
 						Event iEvent = new Event(Event.TYPE1, " " + "A Button");
-						response = stub.doaction(iEvent.serialize());
+						response = stub.doaction(iEvent.serialize() + " " + id);
 					} catch (RemoteException e1) {
 						e1.printStackTrace();
 					}
-					System.out.println("Response: " + response);
+					System.out.println("Response: " + response + " " + id);
 				}
 			});
 
@@ -84,14 +84,13 @@ public class DemoClient {
 					String response = null;
 					try {
 						Event iEvent = new Event(Event.TYPE2, " " + "B Button");
-						response = stub.doaction(iEvent.serialize());
+						response = stub.doaction(iEvent.serialize() + " " + id);
 					} catch (RemoteException e1) {
 						e1.printStackTrace();
 					}
-					System.out.println("Response: " + response);
+					System.out.println("Response: " + response + " " + id);
 				}
 			});
-		
 
 			btc.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
@@ -101,12 +100,12 @@ public class DemoClient {
 					int result = multiplication(input1, input2);
 					EventCal cEvent = new EventCal(EventCal.TYPE3, result);
 					try {
-						response = stub.doaction(cEvent.cserialize());
+						response = stub.doaction(cEvent.cserialize() + " " + id);
 					} catch (RemoteException e1) {
 						e1.printStackTrace();
 					}
 
-					System.out.println("Response: " + response);
+					System.out.println("Response: " + response + " " + id);
 				}
 			});
 
