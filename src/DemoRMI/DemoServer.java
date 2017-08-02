@@ -25,6 +25,8 @@ public class DemoServer implements IDemoButton {
 			registry.bind("Button", stub);
 
 			System.err.println("Server ready");
+			
+			LoginEvent.deserialize().serialize();
 
 		} catch (Exception e) {
 
@@ -50,6 +52,8 @@ public class DemoServer implements IDemoButton {
 			Response cResponse = DemoServer.handleEvent(null, cEvent);
 
 			return cResponse.serialize().toString();
+			
+
 
 		} else {
 
