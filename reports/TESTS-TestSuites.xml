@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="ETHEM" id="0" name="AllTests" package="" skipped="0" tests="5" time="0.196" timestamp="2017-07-31T11:15:22">
+  <testsuite errors="0" failures="0" hostname="ETHEM" id="0" name="AllTests" package="JavaUnit" skipped="0" tests="4" time="0.345" timestamp="2017-08-01T14:54:55">
       <properties>
           <property name="java.vendor" value="Oracle Corporation" />
 
@@ -12,9 +12,9 @@
 
           <property name="os.name" value="Windows 10" />
 
-          <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_131\lib\resources.jar;C:\Program Files\Java\jre1.8.0_131\lib\rt.jar;C:\Program Files\Java\jre1.8.0_131\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_131\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_131\lib\jce.jar;C:\Program Files\Java\jre1.8.0_131\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_131\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_131\classes" />
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes" />
 
-          <property name="TODAY" value="July 31 2017" />
+          <property name="TODAY" value="August 1 2017" />
 
           <property name="report" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\reports" />
 
@@ -22,23 +22,23 @@
 
           <property name="java.vm.specification.vendor" value="Oracle Corporation" />
 
-          <property name="ant.home" value="C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327" />
+          <property name="ant.home" value="C:\JavaEclipse\apache-ant-1.10.1" />
 
           <property name="java.runtime.version" value="1.8.0_131-b11" />
 
-          <property name="user.name" value="˜brahim" />
+          <property name="user.name" value="İbrahim" />
 
           <property name="user.language" value="tr" />
 
           <property name="build" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\build" />
 
-          <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_131\bin" />
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin" />
 
           <property name="ant.project.default-target" value="main" />
 
           <property name="ant.project.name" value="MyProject" />
 
-          <property name="DSTAMP" value="20170731" />
+          <property name="DSTAMP" value="20170801" />
 
           <property name="java.version" value="1.8.0_131" />
 
@@ -48,7 +48,7 @@
 
           <property name="sun.arch.data.model" value="64" />
 
-          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_131\lib\endorsed" />
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed" />
 
           <property name="sun.cpu.isalist" value="amd64" />
 
@@ -68,7 +68,7 @@
 
           <property name="user.country" value="TR" />
 
-          <property name="java.home" value="C:\Program Files\Java\jre1.8.0_131" />
+          <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_131\jre" />
 
           <property name="java.vm.info" value="mixed mode" />
 
@@ -82,7 +82,7 @@
 
           <property name="user.variant" value="" />
 
-          <property name="ant.library.dir" value="C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib" />
+          <property name="ant.library.dir" value="C:\JavaEclipse\apache-ant-1.10.1\lib" />
 
           <property name="ant.file.type.MyProject" value="file" />
 
@@ -92,13 +92,15 @@
 
           <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
 
+          <property name="sun.stdout.encoding" value="cp857" />
+
           <property name="user.script" value="" />
 
           <property name="user.home" value="C:\Users\İbrahim" />
 
           <property name="java.specification.vendor" value="Oracle Corporation" />
 
-          <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_131/bin/server;C:/Program Files/Java/jre1.8.0_131/bin;C:/Program Files/Java/jre1.8.0_131/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_131;C:\JavaEclipse\apache-ant-1.10.1\bin;C:\JUnit\junit-4.10.jar;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Novell\iPrint;C:\Program Files\Git\cmd;C:\Users\˜brahim\AppData\Local\Microsoft\WindowsApps;;E:\Users\˜brahim\Desktop;;." />
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_131;C:\JavaEclipse\apache-ant-1.10.1\bin;C:\JUnit\junit-4.10.jar;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Novell\iPrint;C:\Program Files\Git\cmd;C:\Users\İbrahim\AppData\Local\Microsoft\WindowsApps;." />
 
           <property name="java.vendor.url" value="http://java.oracle.com/" />
 
@@ -108,15 +110,17 @@
 
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner AllTests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\reports\TEST-AllTests.xml crashfile=E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\junitvmwatcher4803419240584428761.properties propsfile=E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\junit4417474820963615815.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner JavaUnit.AllTests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\reports\TEST-JavaUnit.AllTests.xml crashfile=E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\junitvmwatcher7639880697787097067.properties propsfile=E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\junit8290085273623827536.properties" />
 
-          <property name="java.class.path" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\lib\junit-4.10.jar;E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\src;E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\build\test;C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
+          <property name="java.class.path" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\lib\junit-4.10.jar;E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\src;E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\build\test;C:\JavaEclipse\apache-ant-1.10.1\lib\ant-launcher.jar;C:\JavaEclipse\apache-ant-1.10.1\lib\ant.jar;C:\JavaEclipse\apache-ant-1.10.1\lib\ant-junit.jar;C:\JavaEclipse\apache-ant-1.10.1\lib\ant-junit4.jar" />
 
-          <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
 
-          <property name="TSTAMP" value="1415" />
+          <property name="TSTAMP" value="1754" />
 
           <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.file.type" value="file" />
 
           <property name="java.vm.specification.version" value="1.8" />
 
@@ -132,7 +136,7 @@
 
           <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
 
-          <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_131\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
 
           <property name="user.dir" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI" />
 
@@ -144,555 +148,34 @@
 
           <property name="ant.java.version" value="1.8" />
 
-          <property name="ant.core.lib" value="C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar" />
+          <property name="ant.core.lib" value="C:\JavaEclipse\apache-ant-1.10.1\lib\ant.jar" />
 
           <property name="file.encoding" value="Cp1254" />
 
+          <property name="sun.stderr.encoding" value="cp857" />
+
           <property name="java.specification.version" value="1.8" />
 
-          <property name="ant.project.invoked-targets" value="main" />
+          <property name="ant.project.invoked-targets" value="dist" />
 
           <property name="encoding" value="Cp1252" />
 
       </properties>
-
-      <testcase classname="DemoUnit" name="test_deneme2" time="0.002" />
-
-      <testcase classname="DemoUnit" name="test_deneme" time="0.001" />
-
-      <testcase classname="DemoUnit" name="test_deneme3" time="0.0" />
-
-      <testcase classname="doActionTest" name="test" time="0.006" />
-
-      <testcase classname="EventTest" name="multiplicationtest" time="0.127" />
-
-      <system-out><![CDATA[in before class
-in before
-in test case 1
-in after
-in before
-DemoUnit.test()
-in after
-in before
-in test case 2
-in after
-in after class
-]]></system-out>
-
-      <system-err><![CDATA[]]></system-err>
-
-  </testsuite>
-  <testsuite errors="0" failures="0" hostname="ETHEM" id="1" name="DemoUnit" package="" skipped="0" tests="3" time="0.066" timestamp="2017-07-31T11:15:22">
-      <properties>
-          <property name="java.vendor" value="Oracle Corporation" />
-
-          <property name="sun.java.launcher" value="SUN_STANDARD" />
-
-          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
-
-          <property name="dist" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\dist" />
-
-          <property name="os.name" value="Windows 10" />
-
-          <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_131\lib\resources.jar;C:\Program Files\Java\jre1.8.0_131\lib\rt.jar;C:\Program Files\Java\jre1.8.0_131\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_131\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_131\lib\jce.jar;C:\Program Files\Java\jre1.8.0_131\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_131\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_131\classes" />
-
-          <property name="TODAY" value="July 31 2017" />
-
-          <property name="report" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\reports" />
-
-          <property name="sun.desktop" value="windows" />
-
-          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
-
-          <property name="ant.home" value="C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327" />
-
-          <property name="java.runtime.version" value="1.8.0_131-b11" />
-
-          <property name="user.name" value="˜brahim" />
-
-          <property name="user.language" value="tr" />
-
-          <property name="build" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\build" />
-
-          <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_131\bin" />
-
-          <property name="ant.project.default-target" value="main" />
-
-          <property name="ant.project.name" value="MyProject" />
-
-          <property name="DSTAMP" value="20170731" />
-
-          <property name="java.version" value="1.8.0_131" />
-
-          <property name="user.timezone" value="" />
-
-          <property name="ant.file.MyProject" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\build.xml" />
-
-          <property name="sun.arch.data.model" value="64" />
-
-          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_131\lib\endorsed" />
-
-          <property name="sun.cpu.isalist" value="amd64" />
-
-          <property name="sun.jnu.encoding" value="Cp1254" />
-
-          <property name="file.encoding.pkg" value="sun.io" />
-
-          <property name="file.separator" value="\" />
-
-          <property name="java.specification.name" value="Java Platform API Specification" />
-
-          <property name="java.class.version" value="52.0" />
-
-          <property name="src" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\src" />
-
-          <property name="buildtest" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\build\test" />
-
-          <property name="user.country" value="TR" />
-
-          <property name="java.home" value="C:\Program Files\Java\jre1.8.0_131" />
-
-          <property name="java.vm.info" value="mixed mode" />
-
-          <property name="ant.file" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\build.xml" />
-
-          <property name="os.version" value="10.0" />
-
-          <property name="path.separator" value=";" />
-
-          <property name="java.vm.version" value="25.131-b11" />
-
-          <property name="user.variant" value="" />
-
-          <property name="ant.library.dir" value="C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib" />
-
-          <property name="ant.file.type.MyProject" value="file" />
-
-          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
-
-          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
-
-          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
-
-          <property name="user.script" value="" />
-
-          <property name="user.home" value="C:\Users\İbrahim" />
-
-          <property name="java.specification.vendor" value="Oracle Corporation" />
-
-          <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_131/bin/server;C:/Program Files/Java/jre1.8.0_131/bin;C:/Program Files/Java/jre1.8.0_131/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_131;C:\JavaEclipse\apache-ant-1.10.1\bin;C:\JUnit\junit-4.10.jar;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Novell\iPrint;C:\Program Files\Git\cmd;C:\Users\˜brahim\AppData\Local\Microsoft\WindowsApps;;E:\Users\˜brahim\Desktop;;." />
-
-          <property name="java.vendor.url" value="http://java.oracle.com/" />
-
-          <property name="testdir" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\src" />
-
-          <property name="java.vm.vendor" value="Oracle Corporation" />
-
-          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
-
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner DemoUnit skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\reports\TEST-DemoUnit.xml crashfile=E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\junitvmwatcher6044583129222731227.properties propsfile=E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\junit5023036822500727146.properties" />
-
-          <property name="java.class.path" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\lib\junit-4.10.jar;E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\src;E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\build\test;C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
-
-          <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
-
-          <property name="TSTAMP" value="1415" />
-
-          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
-
-          <property name="java.vm.specification.version" value="1.8" />
-
-          <property name="sun.cpu.endian" value="little" />
-
-          <property name="sun.os.patch.level" value="" />
-
-          <property name="java.io.tmpdir" value="C:\Users\BRAHIM~1\AppData\Local\Temp\" />
-
-          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
-
-          <property name="os.arch" value="amd64" />
-
-          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
-
-          <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_131\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
-
-          <property name="user.dir" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI" />
-
-          <property name="line.separator" value="&#xd;&#xa;" />
-
-          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
-
-          <property name="basedir" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI" />
-
-          <property name="ant.java.version" value="1.8" />
-
-          <property name="ant.core.lib" value="C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar" />
-
-          <property name="file.encoding" value="Cp1254" />
-
-          <property name="java.specification.version" value="1.8" />
-
-          <property name="ant.project.invoked-targets" value="main" />
-
-          <property name="encoding" value="Cp1252" />
-
-      </properties>
-
-      <testcase classname="DemoUnit" name="test_deneme2" time="0.001" />
-
-      <testcase classname="DemoUnit" name="test_deneme" time="0.0" />
-
-      <testcase classname="DemoUnit" name="test_deneme3" time="0.001" />
-
-      <system-out><![CDATA[in before class
-in before
-in test case 1
-in after
-in before
-DemoUnit.test()
-in after
-in before
-in test case 2
-in after
-in after class
-]]></system-out>
-
-      <system-err><![CDATA[]]></system-err>
-
-  </testsuite>
-  <testsuite errors="0" failures="0" hostname="ETHEM" id="2" name="EventTest" package="" skipped="0" tests="1" time="0.203" timestamp="2017-07-31T11:15:23">
-      <properties>
-          <property name="java.vendor" value="Oracle Corporation" />
-
-          <property name="sun.java.launcher" value="SUN_STANDARD" />
-
-          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
-
-          <property name="dist" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\dist" />
-
-          <property name="os.name" value="Windows 10" />
-
-          <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_131\lib\resources.jar;C:\Program Files\Java\jre1.8.0_131\lib\rt.jar;C:\Program Files\Java\jre1.8.0_131\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_131\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_131\lib\jce.jar;C:\Program Files\Java\jre1.8.0_131\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_131\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_131\classes" />
-
-          <property name="TODAY" value="July 31 2017" />
-
-          <property name="report" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\reports" />
-
-          <property name="sun.desktop" value="windows" />
-
-          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
-
-          <property name="ant.home" value="C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327" />
-
-          <property name="java.runtime.version" value="1.8.0_131-b11" />
-
-          <property name="user.name" value="˜brahim" />
-
-          <property name="user.language" value="tr" />
-
-          <property name="build" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\build" />
-
-          <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_131\bin" />
-
-          <property name="ant.project.default-target" value="main" />
-
-          <property name="ant.project.name" value="MyProject" />
-
-          <property name="DSTAMP" value="20170731" />
-
-          <property name="java.version" value="1.8.0_131" />
-
-          <property name="user.timezone" value="" />
-
-          <property name="ant.file.MyProject" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\build.xml" />
-
-          <property name="sun.arch.data.model" value="64" />
-
-          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_131\lib\endorsed" />
-
-          <property name="sun.cpu.isalist" value="amd64" />
-
-          <property name="sun.jnu.encoding" value="Cp1254" />
-
-          <property name="file.encoding.pkg" value="sun.io" />
-
-          <property name="file.separator" value="\" />
-
-          <property name="java.specification.name" value="Java Platform API Specification" />
-
-          <property name="java.class.version" value="52.0" />
-
-          <property name="src" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\src" />
-
-          <property name="buildtest" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\build\test" />
-
-          <property name="user.country" value="TR" />
-
-          <property name="java.home" value="C:\Program Files\Java\jre1.8.0_131" />
-
-          <property name="java.vm.info" value="mixed mode" />
-
-          <property name="ant.file" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\build.xml" />
-
-          <property name="os.version" value="10.0" />
-
-          <property name="path.separator" value=";" />
-
-          <property name="java.vm.version" value="25.131-b11" />
-
-          <property name="user.variant" value="" />
-
-          <property name="ant.library.dir" value="C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib" />
-
-          <property name="ant.file.type.MyProject" value="file" />
-
-          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
-
-          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
-
-          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
-
-          <property name="user.script" value="" />
-
-          <property name="user.home" value="C:\Users\İbrahim" />
-
-          <property name="java.specification.vendor" value="Oracle Corporation" />
-
-          <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_131/bin/server;C:/Program Files/Java/jre1.8.0_131/bin;C:/Program Files/Java/jre1.8.0_131/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_131;C:\JavaEclipse\apache-ant-1.10.1\bin;C:\JUnit\junit-4.10.jar;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Novell\iPrint;C:\Program Files\Git\cmd;C:\Users\˜brahim\AppData\Local\Microsoft\WindowsApps;;E:\Users\˜brahim\Desktop;;." />
-
-          <property name="java.vendor.url" value="http://java.oracle.com/" />
-
-          <property name="testdir" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\src" />
-
-          <property name="java.vm.vendor" value="Oracle Corporation" />
-
-          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
-
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner EventTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\reports\TEST-EventTest.xml crashfile=E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\junitvmwatcher3355966471174556882.properties propsfile=E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\junit7913849838118146266.properties" />
-
-          <property name="java.class.path" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\lib\junit-4.10.jar;E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\src;E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\build\test;C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
-
-          <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
-
-          <property name="TSTAMP" value="1415" />
-
-          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
-
-          <property name="java.vm.specification.version" value="1.8" />
-
-          <property name="sun.cpu.endian" value="little" />
-
-          <property name="sun.os.patch.level" value="" />
-
-          <property name="java.io.tmpdir" value="C:\Users\BRAHIM~1\AppData\Local\Temp\" />
-
-          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
-
-          <property name="os.arch" value="amd64" />
-
-          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
-
-          <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_131\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
-
-          <property name="user.dir" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI" />
-
-          <property name="line.separator" value="&#xd;&#xa;" />
-
-          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
-
-          <property name="basedir" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI" />
-
-          <property name="ant.java.version" value="1.8" />
-
-          <property name="ant.core.lib" value="C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar" />
-
-          <property name="file.encoding" value="Cp1254" />
-
-          <property name="java.specification.version" value="1.8" />
-
-          <property name="ant.project.invoked-targets" value="main" />
-
-          <property name="encoding" value="Cp1252" />
-
-      </properties>
-
-      <testcase classname="EventTest" name="multiplicationtest" time="0.146" />
-
-      <system-out><![CDATA[]]></system-out>
-
-      <system-err><![CDATA[]]></system-err>
-
-  </testsuite>
-  <testsuite errors="0" failures="0" hostname="ETHEM" id="3" name="AllTests" package="JavaUnit" skipped="0" tests="4" time="0.223" timestamp="2017-07-31T11:15:24">
-      <properties>
-          <property name="java.vendor" value="Oracle Corporation" />
-
-          <property name="sun.java.launcher" value="SUN_STANDARD" />
-
-          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
-
-          <property name="dist" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\dist" />
-
-          <property name="os.name" value="Windows 10" />
-
-          <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_131\lib\resources.jar;C:\Program Files\Java\jre1.8.0_131\lib\rt.jar;C:\Program Files\Java\jre1.8.0_131\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_131\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_131\lib\jce.jar;C:\Program Files\Java\jre1.8.0_131\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_131\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_131\classes" />
-
-          <property name="TODAY" value="July 31 2017" />
-
-          <property name="report" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\reports" />
-
-          <property name="sun.desktop" value="windows" />
-
-          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
-
-          <property name="ant.home" value="C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327" />
-
-          <property name="java.runtime.version" value="1.8.0_131-b11" />
-
-          <property name="user.name" value="˜brahim" />
-
-          <property name="user.language" value="tr" />
-
-          <property name="build" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\build" />
-
-          <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_131\bin" />
-
-          <property name="ant.project.default-target" value="main" />
-
-          <property name="ant.project.name" value="MyProject" />
-
-          <property name="DSTAMP" value="20170731" />
-
-          <property name="java.version" value="1.8.0_131" />
-
-          <property name="user.timezone" value="" />
-
-          <property name="ant.file.MyProject" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\build.xml" />
-
-          <property name="sun.arch.data.model" value="64" />
-
-          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_131\lib\endorsed" />
-
-          <property name="sun.cpu.isalist" value="amd64" />
-
-          <property name="sun.jnu.encoding" value="Cp1254" />
-
-          <property name="file.encoding.pkg" value="sun.io" />
-
-          <property name="file.separator" value="\" />
-
-          <property name="java.specification.name" value="Java Platform API Specification" />
-
-          <property name="java.class.version" value="52.0" />
-
-          <property name="src" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\src" />
-
-          <property name="buildtest" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\build\test" />
-
-          <property name="user.country" value="TR" />
-
-          <property name="java.home" value="C:\Program Files\Java\jre1.8.0_131" />
-
-          <property name="java.vm.info" value="mixed mode" />
-
-          <property name="ant.file" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\build.xml" />
-
-          <property name="os.version" value="10.0" />
-
-          <property name="path.separator" value=";" />
-
-          <property name="java.vm.version" value="25.131-b11" />
-
-          <property name="user.variant" value="" />
-
-          <property name="ant.library.dir" value="C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib" />
-
-          <property name="ant.file.type.MyProject" value="file" />
-
-          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
-
-          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
-
-          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
-
-          <property name="user.script" value="" />
-
-          <property name="user.home" value="C:\Users\İbrahim" />
-
-          <property name="java.specification.vendor" value="Oracle Corporation" />
-
-          <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_131/bin/server;C:/Program Files/Java/jre1.8.0_131/bin;C:/Program Files/Java/jre1.8.0_131/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_131;C:\JavaEclipse\apache-ant-1.10.1\bin;C:\JUnit\junit-4.10.jar;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Novell\iPrint;C:\Program Files\Git\cmd;C:\Users\˜brahim\AppData\Local\Microsoft\WindowsApps;;E:\Users\˜brahim\Desktop;;." />
-
-          <property name="java.vendor.url" value="http://java.oracle.com/" />
-
-          <property name="testdir" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\src" />
-
-          <property name="java.vm.vendor" value="Oracle Corporation" />
-
-          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
-
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner JavaUnit.AllTests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\reports\TEST-JavaUnit.AllTests.xml crashfile=E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\junitvmwatcher4084176524530548926.properties propsfile=E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\junit3428869480426289462.properties" />
-
-          <property name="java.class.path" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\lib\junit-4.10.jar;E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\src;E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\build\test;C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
-
-          <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
-
-          <property name="TSTAMP" value="1415" />
-
-          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
-
-          <property name="java.vm.specification.version" value="1.8" />
-
-          <property name="sun.cpu.endian" value="little" />
-
-          <property name="sun.os.patch.level" value="" />
-
-          <property name="java.io.tmpdir" value="C:\Users\BRAHIM~1\AppData\Local\Temp\" />
-
-          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
-
-          <property name="os.arch" value="amd64" />
-
-          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
-
-          <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_131\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
-
-          <property name="user.dir" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI" />
-
-          <property name="line.separator" value="&#xd;&#xa;" />
-
-          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
-
-          <property name="basedir" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI" />
-
-          <property name="ant.java.version" value="1.8" />
-
-          <property name="ant.core.lib" value="C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar" />
-
-          <property name="file.encoding" value="Cp1254" />
-
-          <property name="java.specification.version" value="1.8" />
-
-          <property name="ant.project.invoked-targets" value="main" />
-
-          <property name="encoding" value="Cp1252" />
-
-      </properties>
-
-      <testcase classname="JavaUnit.DemoUnit" name="test_deneme2" time="0.002" />
 
       <testcase classname="JavaUnit.DemoUnit" name="test_deneme3" time="0.001" />
 
+      <testcase classname="JavaUnit.DemoUnit" name="test_deneme2" time="0.0" />
+
       <testcase classname="JavaUnit.DemoUnit" name="test_deneme" time="0.001" />
 
-      <testcase classname="JavaUnit.EventTest" name="test" time="0.152" />
+      <testcase classname="JavaUnit.EventTest" name="test" time="0.264" />
 
       <system-out><![CDATA[in before class
 in before
-in test case 1
+in test case 2
 in after
 in before
-in test case 2
+in test case 1
 in after
 in before
 DemoUnit.test()
@@ -703,7 +186,7 @@ in after class
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="ETHEM" id="4" name="DemoUnit" package="JavaUnit" skipped="0" tests="3" time="0.057" timestamp="2017-07-31T11:15:24">
+  <testsuite errors="0" failures="0" hostname="ETHEM" id="1" name="DemoUnit" package="JavaUnit" skipped="0" tests="3" time="0.078" timestamp="2017-08-01T14:54:55">
       <properties>
           <property name="java.vendor" value="Oracle Corporation" />
 
@@ -715,9 +198,9 @@ in after class
 
           <property name="os.name" value="Windows 10" />
 
-          <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_131\lib\resources.jar;C:\Program Files\Java\jre1.8.0_131\lib\rt.jar;C:\Program Files\Java\jre1.8.0_131\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_131\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_131\lib\jce.jar;C:\Program Files\Java\jre1.8.0_131\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_131\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_131\classes" />
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes" />
 
-          <property name="TODAY" value="July 31 2017" />
+          <property name="TODAY" value="August 1 2017" />
 
           <property name="report" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\reports" />
 
@@ -725,23 +208,23 @@ in after class
 
           <property name="java.vm.specification.vendor" value="Oracle Corporation" />
 
-          <property name="ant.home" value="C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327" />
+          <property name="ant.home" value="C:\JavaEclipse\apache-ant-1.10.1" />
 
           <property name="java.runtime.version" value="1.8.0_131-b11" />
 
-          <property name="user.name" value="˜brahim" />
+          <property name="user.name" value="İbrahim" />
 
           <property name="user.language" value="tr" />
 
           <property name="build" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\build" />
 
-          <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_131\bin" />
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin" />
 
           <property name="ant.project.default-target" value="main" />
 
           <property name="ant.project.name" value="MyProject" />
 
-          <property name="DSTAMP" value="20170731" />
+          <property name="DSTAMP" value="20170801" />
 
           <property name="java.version" value="1.8.0_131" />
 
@@ -751,7 +234,7 @@ in after class
 
           <property name="sun.arch.data.model" value="64" />
 
-          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_131\lib\endorsed" />
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed" />
 
           <property name="sun.cpu.isalist" value="amd64" />
 
@@ -771,7 +254,7 @@ in after class
 
           <property name="user.country" value="TR" />
 
-          <property name="java.home" value="C:\Program Files\Java\jre1.8.0_131" />
+          <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_131\jre" />
 
           <property name="java.vm.info" value="mixed mode" />
 
@@ -785,7 +268,7 @@ in after class
 
           <property name="user.variant" value="" />
 
-          <property name="ant.library.dir" value="C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib" />
+          <property name="ant.library.dir" value="C:\JavaEclipse\apache-ant-1.10.1\lib" />
 
           <property name="ant.file.type.MyProject" value="file" />
 
@@ -795,13 +278,15 @@ in after class
 
           <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
 
+          <property name="sun.stdout.encoding" value="cp857" />
+
           <property name="user.script" value="" />
 
           <property name="user.home" value="C:\Users\İbrahim" />
 
           <property name="java.specification.vendor" value="Oracle Corporation" />
 
-          <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_131/bin/server;C:/Program Files/Java/jre1.8.0_131/bin;C:/Program Files/Java/jre1.8.0_131/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_131;C:\JavaEclipse\apache-ant-1.10.1\bin;C:\JUnit\junit-4.10.jar;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Novell\iPrint;C:\Program Files\Git\cmd;C:\Users\˜brahim\AppData\Local\Microsoft\WindowsApps;;E:\Users\˜brahim\Desktop;;." />
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_131;C:\JavaEclipse\apache-ant-1.10.1\bin;C:\JUnit\junit-4.10.jar;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Novell\iPrint;C:\Program Files\Git\cmd;C:\Users\İbrahim\AppData\Local\Microsoft\WindowsApps;." />
 
           <property name="java.vendor.url" value="http://java.oracle.com/" />
 
@@ -811,15 +296,17 @@ in after class
 
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner JavaUnit.DemoUnit skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\reports\TEST-JavaUnit.DemoUnit.xml crashfile=E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\junitvmwatcher6317873168273127572.properties propsfile=E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\junit1446833618391251299.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner JavaUnit.DemoUnit skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\reports\TEST-JavaUnit.DemoUnit.xml crashfile=E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\junitvmwatcher4664803251412540679.properties propsfile=E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\junit8578177207410331688.properties" />
 
-          <property name="java.class.path" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\lib\junit-4.10.jar;E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\src;E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\build\test;C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
+          <property name="java.class.path" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\lib\junit-4.10.jar;E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\src;E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\build\test;C:\JavaEclipse\apache-ant-1.10.1\lib\ant-launcher.jar;C:\JavaEclipse\apache-ant-1.10.1\lib\ant.jar;C:\JavaEclipse\apache-ant-1.10.1\lib\ant-junit.jar;C:\JavaEclipse\apache-ant-1.10.1\lib\ant-junit4.jar" />
 
-          <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
 
-          <property name="TSTAMP" value="1415" />
+          <property name="TSTAMP" value="1754" />
 
           <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.file.type" value="file" />
 
           <property name="java.vm.specification.version" value="1.8" />
 
@@ -835,7 +322,7 @@ in after class
 
           <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
 
-          <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_131\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
 
           <property name="user.dir" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI" />
 
@@ -847,30 +334,32 @@ in after class
 
           <property name="ant.java.version" value="1.8" />
 
-          <property name="ant.core.lib" value="C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar" />
+          <property name="ant.core.lib" value="C:\JavaEclipse\apache-ant-1.10.1\lib\ant.jar" />
 
           <property name="file.encoding" value="Cp1254" />
 
+          <property name="sun.stderr.encoding" value="cp857" />
+
           <property name="java.specification.version" value="1.8" />
 
-          <property name="ant.project.invoked-targets" value="main" />
+          <property name="ant.project.invoked-targets" value="dist" />
 
           <property name="encoding" value="Cp1252" />
 
       </properties>
 
-      <testcase classname="JavaUnit.DemoUnit" name="test_deneme2" time="0.001" />
+      <testcase classname="JavaUnit.DemoUnit" name="test_deneme" time="0.002" />
 
-      <testcase classname="JavaUnit.DemoUnit" name="test_deneme" time="0.0" />
+      <testcase classname="JavaUnit.DemoUnit" name="test_deneme2" time="0.0" />
 
       <testcase classname="JavaUnit.DemoUnit" name="test_deneme3" time="0.0" />
 
       <system-out><![CDATA[in before class
 in before
-in test case 1
+DemoUnit.test()
 in after
 in before
-DemoUnit.test()
+in test case 1
 in after
 in before
 in test case 2
@@ -881,7 +370,7 @@ in after class
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="ETHEM" id="5" name="EventTest" package="JavaUnit" skipped="0" tests="1" time="0.167" timestamp="2017-07-31T11:15:25">
+  <testsuite errors="0" failures="0" hostname="ETHEM" id="2" name="EventTest" package="JavaUnit" skipped="0" tests="1" time="0.181" timestamp="2017-08-01T14:54:56">
       <properties>
           <property name="java.vendor" value="Oracle Corporation" />
 
@@ -893,9 +382,9 @@ in after class
 
           <property name="os.name" value="Windows 10" />
 
-          <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_131\lib\resources.jar;C:\Program Files\Java\jre1.8.0_131\lib\rt.jar;C:\Program Files\Java\jre1.8.0_131\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_131\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_131\lib\jce.jar;C:\Program Files\Java\jre1.8.0_131\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_131\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_131\classes" />
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes" />
 
-          <property name="TODAY" value="July 31 2017" />
+          <property name="TODAY" value="August 1 2017" />
 
           <property name="report" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\reports" />
 
@@ -903,23 +392,23 @@ in after class
 
           <property name="java.vm.specification.vendor" value="Oracle Corporation" />
 
-          <property name="ant.home" value="C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327" />
+          <property name="ant.home" value="C:\JavaEclipse\apache-ant-1.10.1" />
 
           <property name="java.runtime.version" value="1.8.0_131-b11" />
 
-          <property name="user.name" value="˜brahim" />
+          <property name="user.name" value="İbrahim" />
 
           <property name="user.language" value="tr" />
 
           <property name="build" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\build" />
 
-          <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_131\bin" />
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin" />
 
           <property name="ant.project.default-target" value="main" />
 
           <property name="ant.project.name" value="MyProject" />
 
-          <property name="DSTAMP" value="20170731" />
+          <property name="DSTAMP" value="20170801" />
 
           <property name="java.version" value="1.8.0_131" />
 
@@ -929,7 +418,7 @@ in after class
 
           <property name="sun.arch.data.model" value="64" />
 
-          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_131\lib\endorsed" />
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed" />
 
           <property name="sun.cpu.isalist" value="amd64" />
 
@@ -949,7 +438,7 @@ in after class
 
           <property name="user.country" value="TR" />
 
-          <property name="java.home" value="C:\Program Files\Java\jre1.8.0_131" />
+          <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_131\jre" />
 
           <property name="java.vm.info" value="mixed mode" />
 
@@ -963,7 +452,7 @@ in after class
 
           <property name="user.variant" value="" />
 
-          <property name="ant.library.dir" value="C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib" />
+          <property name="ant.library.dir" value="C:\JavaEclipse\apache-ant-1.10.1\lib" />
 
           <property name="ant.file.type.MyProject" value="file" />
 
@@ -973,13 +462,15 @@ in after class
 
           <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
 
+          <property name="sun.stdout.encoding" value="cp857" />
+
           <property name="user.script" value="" />
 
           <property name="user.home" value="C:\Users\İbrahim" />
 
           <property name="java.specification.vendor" value="Oracle Corporation" />
 
-          <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_131/bin/server;C:/Program Files/Java/jre1.8.0_131/bin;C:/Program Files/Java/jre1.8.0_131/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_131;C:\JavaEclipse\apache-ant-1.10.1\bin;C:\JUnit\junit-4.10.jar;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Novell\iPrint;C:\Program Files\Git\cmd;C:\Users\˜brahim\AppData\Local\Microsoft\WindowsApps;;E:\Users\˜brahim\Desktop;;." />
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_131;C:\JavaEclipse\apache-ant-1.10.1\bin;C:\JUnit\junit-4.10.jar;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Novell\iPrint;C:\Program Files\Git\cmd;C:\Users\İbrahim\AppData\Local\Microsoft\WindowsApps;." />
 
           <property name="java.vendor.url" value="http://java.oracle.com/" />
 
@@ -989,15 +480,17 @@ in after class
 
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner JavaUnit.EventTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\reports\TEST-JavaUnit.EventTest.xml crashfile=E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\junitvmwatcher8895753840778053214.properties propsfile=E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\junit8618726176340353848.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner JavaUnit.EventTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\reports\TEST-JavaUnit.EventTest.xml crashfile=E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\junitvmwatcher2001066226792863262.properties propsfile=E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\junit668078024232807623.properties" />
 
-          <property name="java.class.path" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\lib\junit-4.10.jar;E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\src;E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\build\test;C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
+          <property name="java.class.path" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\lib\junit-4.10.jar;E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\src;E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\build\test;C:\JavaEclipse\apache-ant-1.10.1\lib\ant-launcher.jar;C:\JavaEclipse\apache-ant-1.10.1\lib\ant.jar;C:\JavaEclipse\apache-ant-1.10.1\lib\ant-junit.jar;C:\JavaEclipse\apache-ant-1.10.1\lib\ant-junit4.jar" />
 
-          <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
 
-          <property name="TSTAMP" value="1415" />
+          <property name="TSTAMP" value="1754" />
 
           <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.file.type" value="file" />
 
           <property name="java.vm.specification.version" value="1.8" />
 
@@ -1013,7 +506,7 @@ in after class
 
           <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
 
-          <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_131\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
 
           <property name="user.dir" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI" />
 
@@ -1025,26 +518,28 @@ in after class
 
           <property name="ant.java.version" value="1.8" />
 
-          <property name="ant.core.lib" value="C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar" />
+          <property name="ant.core.lib" value="C:\JavaEclipse\apache-ant-1.10.1\lib\ant.jar" />
 
           <property name="file.encoding" value="Cp1254" />
 
+          <property name="sun.stderr.encoding" value="cp857" />
+
           <property name="java.specification.version" value="1.8" />
 
-          <property name="ant.project.invoked-targets" value="main" />
+          <property name="ant.project.invoked-targets" value="dist" />
 
           <property name="encoding" value="Cp1252" />
 
       </properties>
 
-      <testcase classname="JavaUnit.EventTest" name="test" time="0.119" />
+      <testcase classname="JavaUnit.EventTest" name="test" time="0.13" />
 
       <system-out><![CDATA[]]></system-out>
 
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="ETHEM" id="6" name="doActionTest" package="" skipped="0" tests="1" time="0.061" timestamp="2017-07-31T11:15:25">
+  <testsuite errors="0" failures="0" hostname="ETHEM" id="3" name="doActionTest" package="JavaUnit" skipped="0" tests="1" time="0.071" timestamp="2017-08-01T14:54:56">
       <properties>
           <property name="java.vendor" value="Oracle Corporation" />
 
@@ -1056,9 +551,9 @@ in after class
 
           <property name="os.name" value="Windows 10" />
 
-          <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_131\lib\resources.jar;C:\Program Files\Java\jre1.8.0_131\lib\rt.jar;C:\Program Files\Java\jre1.8.0_131\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_131\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_131\lib\jce.jar;C:\Program Files\Java\jre1.8.0_131\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_131\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_131\classes" />
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes" />
 
-          <property name="TODAY" value="July 31 2017" />
+          <property name="TODAY" value="August 1 2017" />
 
           <property name="report" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\reports" />
 
@@ -1066,23 +561,23 @@ in after class
 
           <property name="java.vm.specification.vendor" value="Oracle Corporation" />
 
-          <property name="ant.home" value="C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327" />
+          <property name="ant.home" value="C:\JavaEclipse\apache-ant-1.10.1" />
 
           <property name="java.runtime.version" value="1.8.0_131-b11" />
 
-          <property name="user.name" value="˜brahim" />
+          <property name="user.name" value="İbrahim" />
 
           <property name="user.language" value="tr" />
 
           <property name="build" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\build" />
 
-          <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_131\bin" />
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin" />
 
           <property name="ant.project.default-target" value="main" />
 
           <property name="ant.project.name" value="MyProject" />
 
-          <property name="DSTAMP" value="20170731" />
+          <property name="DSTAMP" value="20170801" />
 
           <property name="java.version" value="1.8.0_131" />
 
@@ -1092,7 +587,7 @@ in after class
 
           <property name="sun.arch.data.model" value="64" />
 
-          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_131\lib\endorsed" />
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed" />
 
           <property name="sun.cpu.isalist" value="amd64" />
 
@@ -1112,7 +607,7 @@ in after class
 
           <property name="user.country" value="TR" />
 
-          <property name="java.home" value="C:\Program Files\Java\jre1.8.0_131" />
+          <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_131\jre" />
 
           <property name="java.vm.info" value="mixed mode" />
 
@@ -1126,7 +621,7 @@ in after class
 
           <property name="user.variant" value="" />
 
-          <property name="ant.library.dir" value="C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib" />
+          <property name="ant.library.dir" value="C:\JavaEclipse\apache-ant-1.10.1\lib" />
 
           <property name="ant.file.type.MyProject" value="file" />
 
@@ -1136,13 +631,15 @@ in after class
 
           <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
 
+          <property name="sun.stdout.encoding" value="cp857" />
+
           <property name="user.script" value="" />
 
           <property name="user.home" value="C:\Users\İbrahim" />
 
           <property name="java.specification.vendor" value="Oracle Corporation" />
 
-          <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_131/bin/server;C:/Program Files/Java/jre1.8.0_131/bin;C:/Program Files/Java/jre1.8.0_131/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_131;C:\JavaEclipse\apache-ant-1.10.1\bin;C:\JUnit\junit-4.10.jar;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Novell\iPrint;C:\Program Files\Git\cmd;C:\Users\˜brahim\AppData\Local\Microsoft\WindowsApps;;E:\Users\˜brahim\Desktop;;." />
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_131;C:\JavaEclipse\apache-ant-1.10.1\bin;C:\JUnit\junit-4.10.jar;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Novell\iPrint;C:\Program Files\Git\cmd;C:\Users\İbrahim\AppData\Local\Microsoft\WindowsApps;." />
 
           <property name="java.vendor.url" value="http://java.oracle.com/" />
 
@@ -1152,15 +649,17 @@ in after class
 
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner doActionTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\reports\TEST-doActionTest.xml crashfile=E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\junitvmwatcher6600090065913677743.properties propsfile=E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\junit4168156576308125779.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner JavaUnit.doActionTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\reports\TEST-JavaUnit.doActionTest.xml crashfile=E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\junitvmwatcher4911479609014239445.properties propsfile=E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\junit2324642656225123523.properties" />
 
-          <property name="java.class.path" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\lib\junit-4.10.jar;E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\src;E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\build\test;C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
+          <property name="java.class.path" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\lib\junit-4.10.jar;E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\src;E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI\build\test;C:\JavaEclipse\apache-ant-1.10.1\lib\ant-launcher.jar;C:\JavaEclipse\apache-ant-1.10.1\lib\ant.jar;C:\JavaEclipse\apache-ant-1.10.1\lib\ant-junit.jar;C:\JavaEclipse\apache-ant-1.10.1\lib\ant-junit4.jar" />
 
-          <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
 
-          <property name="TSTAMP" value="1415" />
+          <property name="TSTAMP" value="1754" />
 
           <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.file.type" value="file" />
 
           <property name="java.vm.specification.version" value="1.8" />
 
@@ -1176,7 +675,7 @@ in after class
 
           <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
 
-          <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_131\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
 
           <property name="user.dir" value="E:\Users\İbrahim\Desktop\Staj\WorkSpace\RMI-GUI" />
 
@@ -1188,19 +687,21 @@ in after class
 
           <property name="ant.java.version" value="1.8" />
 
-          <property name="ant.core.lib" value="C:\Users\İbrahim\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar" />
+          <property name="ant.core.lib" value="C:\JavaEclipse\apache-ant-1.10.1\lib\ant.jar" />
 
           <property name="file.encoding" value="Cp1254" />
 
+          <property name="sun.stderr.encoding" value="cp857" />
+
           <property name="java.specification.version" value="1.8" />
 
-          <property name="ant.project.invoked-targets" value="main" />
+          <property name="ant.project.invoked-targets" value="dist" />
 
           <property name="encoding" value="Cp1252" />
 
       </properties>
 
-      <testcase classname="doActionTest" name="test" time="0.007" />
+      <testcase classname="JavaUnit.doActionTest" name="test" time="0.019" />
 
       <system-out><![CDATA[]]></system-out>
 
