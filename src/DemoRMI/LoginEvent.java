@@ -23,4 +23,8 @@ public class LoginEvent {
 		return new LoginEvent(Rid);
 	
 	}
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 3fe548f472a37a676322fe6b3fc98d14d04fcb66
