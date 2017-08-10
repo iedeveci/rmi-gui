@@ -21,6 +21,7 @@ public class ParametreTest {
 	@Before
 	public void initialize() {
 		primeNumberChecker = new PrimeNumberChecker();
+		System.out.println("sdfsdf");
 	}
 
 	// Each parameter should be placed as an argument here
@@ -31,6 +32,7 @@ public class ParametreTest {
 		this.expectedResult = expectedResult;
 	}
 
+
 	@Parameterized.Parameters
 	public static Collection primeNumbers() {
 		return Arrays.asList(new Object[][] { { 2, true }, 
@@ -39,7 +41,6 @@ public class ParametreTest {
 			{ 22, false }, 
 			{ 23, true } });
 	}
-
 	// This test will run 4 times since we have 5 parameters defined
 	@Test
 	public void testPrimeNumberChecker() {
