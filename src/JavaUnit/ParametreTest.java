@@ -33,7 +33,11 @@ public class ParametreTest {
 
 	@Parameterized.Parameters
 	public static Collection primeNumbers() {
-		return Arrays.asList(new Object[][] { { 2, true }, { 6, false }, { 19, true }, { 22, false }, { 23, true } });
+		return Arrays.asList(new Object[][] { { 2, true }, 
+			{ 6, false },
+			{ 19, true }, 
+			{ 22, false }, 
+			{ 23, true } });
 	}
 
 	// This test will run 4 times since we have 5 parameters defined

@@ -8,6 +8,7 @@ import java.rmi.server.UnicastRemoteObject;
 
 public class DemoServer implements IDemoButton {
 	
+	private String a;
 	public DemoServer() {
 
 	}
